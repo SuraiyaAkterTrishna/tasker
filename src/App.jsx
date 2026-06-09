@@ -23,7 +23,7 @@ export default function App() {
   const handleChangeTask = (task) => {
     dispatch({
       type: "changed",
-      task,
+      task: task
     })
   }
 
